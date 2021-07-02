@@ -1,0 +1,38 @@
+
+#header{
+    position: sticky;
+    height : 50px;
+    width: 100%;
+    top: 0px;
+    color: #ffffff;
+    --flex-direction: row;
+}
+    #header>.login-box{
+        background-color: red;
+    }
+    #header>.content-box{
+        background-color: blue;
+    }
+#section1{
+    background: green;
+}
+#container{
+    --height : 10px;
+    background: tomato;
+    color: white;
+}
+#footer{
+    background: wheat;
+    position: relative;
+}
+    #footer>.foot{
+        background: yellow;
+
+    }
+    #footer>.version{
+        background: rgb(178, 178, 184);
+        color : #ffffff;
+        position: absolute;
+        justify-content: center;
+
+    }
