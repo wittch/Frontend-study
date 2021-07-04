@@ -4,15 +4,77 @@
     height : 50px;
     width: 100%;
     top: 0px;
-    color: #ffffff;
+    --color: #ffffff;
     --flex-direction: row;
+   
+    
 }
-    #header>.login-box{
-        background-color: red;
+    #header>.login-container, .content-box{
+        flex: 1;
     }
+    #header>.login-container{
+        background-color: #ff000080;
+        display: flex;
+        width: inherit;
+        justify-content: flex-end;
+        padding: 5px;
+    }
+
+        .login-container>.login-box{
+            background-color : #614c4c;
+            margin-left: 10px;
+            padding: 5px;
+            
+        }
+        .login-container>.sign-up{
+            background-color: rgb(45, 39, 121);
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 5px;
+        }
+
+
     #header>.content-box{
+        display: flex;
         background-color: blue;
+        justify-content: center;
+        padding : 5px;     
     }
+        #header>.content-box>.header-content{
+            display: flex;
+            color: white;
+            background-color: rgb(178, 178, 184);
+            padding : 5px;
+            margin-left: 5px;
+            justify-content: space-around;
+            
+        }
+            #header>.content-box>.header-content>.problems{
+                background-color: white;
+                color: #000;
+                margin-left: 5px;
+            }
+            #header>.content-box>.header-content>.contests{
+                background-color: white;
+                color: #000;
+                margin-left: 5px;
+            }
+            #header>.content-box>.header-content>.status{
+                background-color: white;
+                color: #000;
+                margin-left: 5px;
+            }
+            #header>.content-box>.header-content>.rank{
+                background-color: white;
+                color: #000;
+                margin-left: 5px;
+            }
+            #header>.content-box>.header-content>.board{
+                background-color: white;
+                color: #000;
+                margin-left: 5px;
+            }
+
 #section1{
     background: green;
 }
@@ -22,17 +84,25 @@
     color: white;
 }
 #footer{
+    flex: 1;
     background: wheat;
-    position: relative;
+    --position: relative;
+    
 }
-    #footer>.foot{
-        background: yellow;
-
+    #footer>.footer-content-box{
+        position : absolute;
+        bottom: 0%;
+        justify-content: center;
+        
     }
-    #footer>.version{
+    .foot{
+        background: yellow;
+        text-align: center;
+    }
+    .version{
         background: rgb(178, 178, 184);
         color : #ffffff;
-        position: absolute;
-        justify-content: center;
-
+        text-align: center;
+        padding: 5px;
+        margin: auto;
     }
