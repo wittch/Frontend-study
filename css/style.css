@@ -1,4 +1,4 @@
-
+/* hedaer */
 #header{
     position: sticky;
     height : inherit;
@@ -98,8 +98,15 @@
                 margin-left: 5px;
             }
 
-
-
+        #header>.logo{
+            font-size: 25px;
+            background-color: black;
+            color: #ffffff;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+        }
+/* main */
 #section1{
     background: green;
 }
@@ -108,6 +115,7 @@
     background: tomato;
     color: white;
 }
+/* footer */
 #footer{
     flex: 1;
     background: wheat;
