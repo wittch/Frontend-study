@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/reset.css" type="text/css" rel="stylesheet">
     <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/rank.css" type="text/css" rel="stylesheet">
     <title>Eucalyptus 저지 사이트</title>
-    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
 </head>
 <body>
 <!-- header box------------------------------------------------------------------------------------------ -->
@@ -18,19 +20,20 @@
         </div>
         <div class="content-box">
             <div class="header-content">
-                     <div  class="problems">문제</div>
-                    <div  class="contests">대회</div>
-                    <div  class="status">채점 현황</div>
-                    <div  class="rank">랭킹</div>
-                    <div  class="board">게시판</div>
+                    <div class="problems"><a href="problems.html">문제</a></div>
+                    <div class="contests"><a href="contests.html">대회</a></div>
+                    <div class="status"><a href="grading.html">채점 현황</a></div>
+                    <div class="rank"><a href="rank.html">랭킹</a></div>
+                    <div class="board">게시판</div>
                 </div>
             </div>
         </div>
-        <div class="logo">Eucalyptus</div>
+        <div class="logo"><a href="home.html">Eucalyptus</a></div>
     </header>
 <!-- main box------------------------------------------------------------------------------------------ -->
-    <main>
-        1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>1<br>2<br>3<br>4<br>5<br>6<br>
+    <main id="main">
+        <canvas id="line-chart"></canvas>
+        <script src="../js/rank.js" type="text/javascript"></script>
     </main>
 <!-- footer box------------------------------------------------------------------------------------------ -->
     <footer id="footer">

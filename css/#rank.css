@@ -1,0 +1,8 @@
+#main{
+    width: 800px;
+    height: 800px;  
+}
+#line-chart{
+    width: inherit;
+    height: 400px;
+}
