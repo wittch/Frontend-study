@@ -1,4 +1,3 @@
-
 new Chart(document.getElementById("pie-chart"), {
     type: 'pie',
     data: {

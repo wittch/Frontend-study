@@ -31,6 +31,7 @@ new Chart(document.getElementById("line-chart"), {
       ]
     },
     options: {
+      responsive : false,
       title: {
         display: true,
         text: 'Correct answers (Rating)'
