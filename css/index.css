@@ -1,10 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
 /* hedaer *//* -------------------------------------------------------------------------------------------------- */
 #header{
     position: sticky;
-    height : inherit;
     width: 100%;
     top: 0px;
-   
+    height : 10vh;
     
 }
 /* -------------------------------------------------------------------------------------------------- */
@@ -108,6 +116,7 @@
 /* main *//* -------------------------------------------------------------------------------------------------- */
 #main{
     color : #000000;
+    min-height: 100%;
 }
 
     #main>.main-container{
@@ -128,22 +137,23 @@
             background-color: coral;
             margin: 5px;
         }
-
+        #main>.wrap-chart{
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        
 /* footer *//* -------------------------------------------------------------------------------------------------- */
 #footer{
-    flex: none;
+    margin-top : auto;
     background: wheat;
     
 }
 /* -------------------------------------------------------------------------------------------------- */
     #footer>.footer-content-box{
         display: flex;
-        position : relative;
-        bottom: 0px;
         justify-content: center;
         flex-direction: column;
-        margin-top: auto;
-        
     }
     .foot{
         background: yellow;
@@ -156,10 +166,5 @@
         padding: 5px;
         margin: auto;
     }
-
-
-
-
-
 
 
