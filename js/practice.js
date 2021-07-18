@@ -21,12 +21,12 @@ window.addEventListener("load",function(){
     menu1.onmouseout = function(){
         wrapContent1.style = "background-color: white";
     }
-    menu2.onmouseover=function(){
+   /* menu2.onmouseover=function(){
         wrapContent2.style = "background-color: lawngreen";
     };
     menu2.onmouseout = function(){
         wrapContent2.style = "background-color: white";
-    }
+    }*/
     menu3.onmouseover=function(){
         wrapContent3.style = "background-color: lawngreen";
     };
